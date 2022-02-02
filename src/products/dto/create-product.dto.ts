@@ -5,4 +5,5 @@ export class CreateProductDto {
     readonly date: string
     readonly url: string
     readonly img: string
+    readonly genre: string
 }

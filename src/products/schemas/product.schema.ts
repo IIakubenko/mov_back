@@ -22,6 +22,9 @@ export class Product {
 
     @Prop()
     img: string
+
+    @Prop()
+    genre: string
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
